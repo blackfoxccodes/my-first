@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quicklink</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__left">
+        <a class="logo" href="#">
+          <img src="images/icon-link.svg" alt="" />
+          QUICKLINK
+        </a>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a class="nav__link" href="#about">Что это?</a></li>
+            <li><a class="nav__link" href="#screens">Как это выглядит?</a></li>
+            <li><a class="nav__link" href="#price">Сколько стоит?</a></li>
+            <li><a class="nav__link" href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <a class="login" href="#" aria-label="Войти">
+        <img src="images/icon-user.svg" alt="" />
+      </a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Все, что тебе<br />
+            нужно<br />
+            В одной ссылке
+          </h1>
+
+          <p class="hero__text">
+            Присоединяйся к более 50 млн. людей<br />
+            и делись всем, что ты создаешь, курируешь или продаешь онлайн. Все в
+            одной ссылке.
+          </p>
+          <img class="hero__underline" src="images/underline.svg" alt="" />
+          <img
+            class="hero__sparkle hero__sparkle--1"
+            src="images/sparkle-1.svg"
+            alt=""
+          />
+          <img
+            class="hero__sparkle hero__sparkle--2"
+            src="images/sparkle-2.svg"
+            alt=""
+          />
+          <img
+            class="hero__sparkle hero__sparkle--3"
+            src="images/sparkle-3.svg"
+            alt=""
+          />
+          <img
+            class="hero__sparkle hero__sparkle--4"
+            src="images/sparkle-4.svg"
+            alt=""
+          />
+          <img
+            class="hero__sparkle hero__sparkle--5"
+            src="images/sparkle-5.svg"
+            alt=""
+          />
+          <form class="hero__form">
+            <input
+              class="hero__input"
+              type="email"
+              placeholder="your@mail.com"
+              aria-label="Электронная почта"
+            />
+            <button class="hero__button" type="submit">
+              Создать страницу
+              <img src="images/icon-arrow.svg" alt="" />
+            </button>
+          </form>
+        </div>
+        <div class="hero__pic">
+          <img class="hero__ellipse" src="images/ellipse.svg" alt="" />
+          <img class="hero__phone" src="images/iphone.png" alt="" />
+          <img
+            class="hero__screen"
+            src="images/screen.png"
+            alt="Пример страницы Quicklink на телефоне"
+          />
+          <img class="hero__new" src="images/icon-new.svg" alt="" />
+        </div>
+      </section>
+
+      <section class="features" id="about">
+        <article class="card">
+          <div class="card__pic">
+            <img src="images/feature-1.svg" alt="" />
+          </div>
+          <h2 class="card__title">Кастомные элементы</h2>
+          <p class="card__text">
+            Создавай и кастомизируй свой профиль за считанные минуты!
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card__pic card__pic--center">
+            <img src="images/feature-2.svg" alt="" />
+          </div>
+          <h2 class="card__title">Подробная аналитика</h2>
+          <p class="card__text">
+            Отслеживай информацию о том, кто и откуда интересовался твоим
+            профилем
+          </p>
+        </article>
+
+        <article class="card">
+          <div class="card__pic card__pic--right">
+            <img src="images/feature-3.svg" alt="" />
+          </div>
+          <h2 class="card__title">Короткая ссылка</h2>
+          <p class="card__text">
+            Красивая персональная ссылка на профиль бесплатно!
+          </p>
+        </article>
+      </section>
+
+      <section class="screens" id="screens">
+        <div class="screens__collage">
+          <div class="jobs">
+            <p class="jobs__title">опыт работы</p>
+
+            <div class="jobs__item">
+              <p class="jobs__company">
+                Arrival <span class="jobs__years">(2021-по наст. время)</span>
+              </p>
+              <p class="jobs__site">arrival.com</p>
+              <p class="jobs__role">Senior Front-End разработчик</p>
+            </div>
+
+            <div class="jobs__item">
+              <p class="jobs__company">
+                Apple <span class="jobs__years">(2018-2021)</span>
+              </p>
+              <p class="jobs__site">apple.com</p>
+              <p class="jobs__role">Middle+ Front-End разработчик</p>
+            </div>
+
+            <div class="jobs__item">
+              <p class="jobs__company">
+                IBM <span class="jobs__years">(2017-2018)</span>
+              </p>
+              <p class="jobs__site">ibm.com</p>
+              <p class="jobs__role">Middle Front-End разработчик</p>
+            </div>
+          </div>
+
+          <div class="project">
+            <img class="project__image" src="images/project-van.png" alt="" />
+            <p class="project__title">Arrival Dashboard</p>
+            <p class="project__text">
+              В качестве лид разработчика участвовал в создании и развитии
+              систем аналитики для британского стартапа
+            </p>
+            <div class="project__actions">
+              <div class="project__button">
+                <span class="project__button-text">Посмотреть</span>
+                <img src="images/icon-arrow-small-1.svg" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="profile">
+            <img
+              class="profile__avatar"
+              src="images/avatar.png"
+              alt="Майкл Найт"
+            />
+            <div class="profile__content">
+              <p class="profile__name">Майкл Найт</p>
+              <p class="profile__info">
+                Помогу превратить программирование из хобби в прибыльную
+                профессию
+              </p>
+              <div class="profile__button">
+                <span class="profile__button-text">Написать</span>
+                <img src="images/icon-arrow-small-2.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="screens__block">
+          <p class="screens__text">
+            Большое количество кастомизируемых элементов поможет лучше
+            рассказать<br />
+            миру о себе и привлечь новых клиентов
+          </p>
+          <div class="screens__actions">
+            <a class="screens__button" href="#">Попробовать бесплатно</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="price" id="price">
+        <h2 class="section-title">тарифы</h2>
+
+        <div class="price__list">
+          <article class="price-card">
+            <h3 class="price-card__name">базовый</h3>
+            <p class="price-card__price">
+              0₽ <span class="price-card__period">/мес</span>
+            </p>
+            <p class="price-card__desc">
+              Для тех, кто хочет попробовать сервис
+            </p>
+            <ul class="price-card__list">
+              <li>
+                <img src="images/icon-check.svg" alt="" />Нет платы за
+                использование
+              </li>
+              <li>
+                <img src="images/icon-check.svg" alt="" />Бесплатный домен
+              </li>
+              <li>
+                <img src="images/icon-check.svg" alt="" />Несколько тем
+                оформления на выбор
+              </li>
+            </ul>
+            <a class="price-card__button" href="#">Попробовать</a>
+          </article>
+
+          <article class="price-card">
+            <span class="price-card__tag">Лучший выбор</span>
+
+            <h3 class="price-card__name">премиум</h3>
+            <p class="price-card__price">
+              250₽ <span class="price-card__period">/мес</span>
+            </p>
+            <p class="price-card__desc">Для продвинутых пользователей</p>
+            <ul class="price-card__list">
+              <li>
+                <img src="images/icon-check.svg" alt="" />Более 100 кастомных
+                элементов
+              </li>
+              <li>
+                <img src="images/icon-check.svg" alt="" />Доступ к аналитике
+              </li>
+              <li>
+                <img src="images/icon-check.svg" alt="" />Скидки на продвижение
+              </li>
+              <li>
+                <img src="images/icon-check.svg" alt="" />Бесплатное хранилище
+                фото
+              </li>
+            </ul>
+            <a class="price-card__button" href="#">Получить премиум</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="faq" id="faq">
+        <h2 class="section-title">FAQ</h2>
+
+        <div class="faq__list">
+          <details class="faq__item" open>
+            <summary class="faq__question">
+              Зачем мне нужен Quicklink?
+              <img class="faq__plus" src="images/icon-plus.svg" alt="" />
+              <img class="faq__minus" src="images/icon-minus.svg" alt="" />
+            </summary>
+            <div class="faq__answer">
+              <p>
+                Это единая ссылка, которую вы можете использовать, чтобы связать
+                вашу аудиторию со всем, что вы делаете, и со всем, что вам
+                небезразлично. Это позволяет делиться множеством ссылок в одной,
+                чтобы ваши подписчики, посетители и клиенты могли найти все, что
+                они ищут, в одном месте.
+              </p>
+              <p>
+                Вы можете добавить ссылку на Quicklink на платформах социальных
+                сетей, таких как Tiktok и Instagram, включить в подписи к
+                электронной почте и даже отобразить в виде QR-кода, чтобы ваша
+                офлайн-аудитория связалась с вами онлайн.
+              </p>
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question">
+              Как я могу использовать свой профиль?
+              <img class="faq__plus" src="images/icon-plus.svg" alt="" />
+              <img class="faq__minus" src="images/icon-minus.svg" alt="" />
+            </summary>
+            <div class="faq__answer">
+              <p>Для продвижения соцсетей, бизнеса и личного бренда.</p>
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question">
+              Как много ссылок на профиль я могу создать?
+              <img class="faq__plus" src="images/icon-plus.svg" alt="" />
+              <img class="faq__minus" src="images/icon-minus.svg" alt="" />
+            </summary>
+            <div class="faq__answer">
+              <p>Зависит от выбранного тарифа.</p>
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question">
+              Что дает премиум подписка?
+              <img class="faq__plus" src="images/icon-plus.svg" alt="" />
+              <img class="faq__minus" src="images/icon-minus.svg" alt="" />
+            </summary>
+            <div class="faq__answer">
+              <p>Дополнительные функции и возможности оформления.</p>
+            </div>
+          </details>
+
+          <details class="faq__item">
+            <summary class="faq__question">
+              Какие ограничения есть на базовом тарифе?
+              <img class="faq__plus" src="images/icon-plus.svg" alt="" />
+              <img class="faq__minus" src="images/icon-minus.svg" alt="" />
+            </summary>
+            <div class="faq__answer">
+              <p>Ограниченный доступ к премиум-функциям.</p>
+            </div>
+          </details>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__brand">
+        <a class="footer__logo" href="#">
+          <img src="images/icon-link-white.svg" alt="" />
+          QUICKLINK
+        </a>
+
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook">
+            <img src="images/icon-facebook.svg" alt="" />
+          </a>
+          <a href="#" aria-label="Twitter">
+            <img src="images/icon-twitter.svg" alt="" />
+          </a>
+          <a href="#" aria-label="Instagram">
+            <img src="images/icon-instagram.svg" alt="" />
+          </a>
+          <a href="#" aria-label="YouTube">
+            <img src="images/icon-youtube.svg" alt="" />
+          </a>
+        </div>
+      </div>
+
+      <ul class="footer__list">
+        <li><a href="#about">Что это?</a></li>
+        <li><a href="#screens">Как это работает?</a></li>
+        <li><a href="#price">Сколько стоит?</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+
+      <ul class="footer__list">
+        <li><a href="#">Перс. данные</a></li>
+        <li><a href="#">Безопасность</a></li>
+        <li><a href="#">Документы</a></li>
+        <li><a href="#">Политика отмены</a></li>
+      </ul>
+
+      <ul class="footer__list">
+        <li><a href="#">Поддержка</a></li>
+        <li><a href="#">Компания</a></li>
+        <li><a href="#">Вакансии</a></li>
+        <li><a href="#">Партнерам</a></li>
+      </ul>
+    </footer>
+
+    <a class="feedback" href="#" aria-label="Написать нам">
+      <img src="images/icon-chat.svg" alt="" />
+    </a>
+
+  </body>
+</html>
